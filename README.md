@@ -1,4 +1,5 @@
 #New Column Creation
+
     def location330(a330_planning):
 
         df = a330_planning
@@ -10,6 +11,7 @@
         return new_df
 
 #Join of different dataframes
+
     def A330_location(geo_dataset, location330):
         from pyspark.sql.functions import col
 
@@ -19,3 +21,18 @@
         df = df.join(df_geo, df.position == df_geo.location).select(df["*"], df_geo["lat"], df_geo["lon"])
 
         return df
+
+#Replace column variable thorugh a table
+
+    for row in moma:
+        nationality = row[2]
+        gender = row[5]
+
+        nationality = nationality.replace("(","")
+        nationality = nationality.replace(")","")
+
+        gender = gender.replace("(","")
+        gender = gender.replace(")","")
+
+        row[2] = nationality
+        row[5] = gender
