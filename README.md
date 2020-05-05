@@ -11,7 +11,6 @@ This competition's data provides us with Twitter data. In fact, we have differen
   <br>
 However, the main target of this competition is not to classify our tweets by sentiment. No. What we really want is to get those words that have the highest impact on determining the sentiment of the tweet.
 </p>
-<br>
 <h3>What you can find</h3>
 <p>The current repository is composed by a set of files that have different analysis.<br>
 There is no data due to the fact that we are using directly Kaggle's data.
