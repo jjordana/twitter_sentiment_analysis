@@ -14,12 +14,10 @@ However, the main target of this competition is not to classify our tweets by se
 <br>
 <b>
 <h3>What you can find</h3>
-  <p>The current repository is composed by a set of files that have different analysis.<br>
-    There is no data due to the fact that we are using directly Kaggle's data.
-    <br>
-    <br>
-    <a href="https://github.com/jjordana/twitter_sentiment_analysis/blob/master/EDA.ipynb">EDA</a>
-    
-  
-  </p>
+<p>The current repository is composed by a set of files that have different analysis.<br>
+There is no data due to the fact that we are using directly Kaggle's data.
+<br>
+<br>
+<a href="https://github.com/jjordana/twitter_sentiment_analysis/blob/master/EDA.ipynb">EDA</a>
+</p>
 
