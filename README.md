@@ -16,6 +16,14 @@ However, the main target of this competition is not to classify our tweets by se
 There is no data due to the fact that we are using directly Kaggle's data.
 <br>
 <br>
-<a href="https://github.com/jjordana/twitter_sentiment_analysis/blob/master/EDA.ipynb">EDA</a>
+<a href="https://github.com/jjordana/twitter_sentiment_analysis/blob/master/EDA.ipynb">EDA</a><br>
+  It has a fast analysis of all the data. You can get some ideas
+<br>
+  <a href="https://github.com/jjordana/twitter_sentiment_analysis/blob/master/firstTry.ipynb">First Approach</a><br>
+  Gives a first idea of how we can achieve our result.<br>
+  This part only plays with the data by the use of some functions, but it never tries to give a solution to the competition's problem.     It's just an approach.
+<br>
+  <a href="https://github.com/jjordana/twitter_sentiment_analysis/blob/master/roBERTa.ipynb">roBERTa</a><br>
+  We use a NN to try to solve the problem. <br>
 </p>
 
